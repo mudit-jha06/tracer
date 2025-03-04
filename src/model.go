@@ -4,9 +4,8 @@ package main
 
 // model struct type implements the tea.Model interface
 type model struct {
-	passageText             []string
-	prevCorrectWords        []string
-	prevIncorrectWords      []string
-	currentPassageTextIndex int
-	currentTypedWord        string
+	passageText        []string
+	prevCorrectWords   []string
+	prevIncorrectWords []string
+	currentTypedWord   string
 }

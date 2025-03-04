@@ -45,11 +45,10 @@ func main() {
 func getInititalState() *model {
 	passageText := getRandomPassage()
 	return &model{
-		passageText:             passageText,
-		prevCorrectWords:        []string{},
-		prevIncorrectWords:      []string{},
-		currentPassageTextIndex: 0,
-		currentTypedWord:        "",
+		passageText:        passageText,
+		prevCorrectWords:   []string{},
+		prevIncorrectWords: []string{},
+		currentTypedWord:   "",
 	}
 }
 
